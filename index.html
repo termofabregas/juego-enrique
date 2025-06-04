@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Carrera Espacial Inercial</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <canvas id="game-canvas"></canvas>
+        <div id="ui">
+            <p id="timer">Tiempo: 0.00s</p>
+            <p id="laps">Vueltas: 0/2</p>
+        </div>
+        <div id="game-over">
+            <h2>¡Has perdido!</h2>
+            <button onclick="resetGame()">Reiniciar</button>
+        </div>
+        <div id="win-screen">
+            <h2>¡Ganaste!</h2>
+            <p id="final-time"></p>
+            <button onclick="resetGame()">Jugar de nuevo</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
